@@ -1,0 +1,47 @@
+OneChain: an application that takes as input a list of emails and a backend news API and triggers sending newsletter to the email list.
+
+BACKEND: 
+
+1. Backend News API (pre-built)
+2. Send newsletters to emails in a list
+
+FRONTEND:
+
+1. Landing Page with an option to input email and a button to subscribe
+2. newsletter in HTML
+
+MailChimp API Key: MYRPS7557R03091996
+
+1st Draft:
+
+- Create a backend to read the news from the News API - Done
+- Create a frontend to render the news from the backend - Done
+Issue 1: map not a function => first set the useState as an array, axios response needs to be awaited further, props not to be destructured in a new component
+Issue 2: to add a variable to a property of an element, use {`http://abc${addwhatever}`}
+- Create a script to convert the frontend to htmlstring - Done
+- Create a script to perform mail distribution using MailChimp
+
+Mailchimp API key: 76dfe25b876575570752b8f847aff78c-us13
+Mailchimp YOUR_SERVER_PREFIX: us13
+
+In Mailchimp, a contact only exists in the context of the audience it’s a member of. You can’t create a contact and then later add that contact to a list—which means contacts can’t be explicitly shared between more than one list.
+
+https://mailchimp.com/developer/marketing/guides/create-your-first-audience/
+
+list id : 662f45d1b6
+
+
+Example Article:
+
+{"data":
+[
+{"source":
+	{"id":"techcrunch",
+	"name":"TechCrunch"},
+"author":"Lauren Forristal",
+"title":"Bye-bye bots: Altera's game-playing AI agents get backing from Eric Schmidt | TechCrunch",
+"description":"Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI Research company Altera raised $9 million to build AI agents that can play video games alongside other player…",
+"url":"https://techcrunch.com/2024/05/08/bye-bye-bots-alteras-game-playing-ai-agents-get-backing-from-eric-schmidt/",
+"urlToImage":"https://techcrunch.com/wp-content/uploads/2024/05/Minecraft-keyart.jpg?resize=1200,720",
+"publishedAt":"2024-05-08T15:14:57Z",
+"content":"Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI agents.\r\nThe company announced Wednesday that it … [+6416 chars]"},
