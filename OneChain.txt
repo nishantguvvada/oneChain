@@ -21,14 +21,12 @@ Issue 2: to add a variable to a property of an element, use {`http://abc${addwha
 - Create a script to convert the frontend to htmlstring - Done
 - Create a script to perform mail distribution using MailChimp
 
-Mailchimp API key: 76dfe25b876575570752b8f847aff78c-us13
-Mailchimp YOUR_SERVER_PREFIX: us13
 
 In Mailchimp, a contact only exists in the context of the audience it’s a member of. You can’t create a contact and then later add that contact to a list—which means contacts can’t be explicitly shared between more than one list.
 
 https://mailchimp.com/developer/marketing/guides/create-your-first-audience/
 
-list id : 662f45d1b6
+
 
 
 Example Article:
