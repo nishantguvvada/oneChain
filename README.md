@@ -10,3 +10,10 @@
 
 MAJOR CHALLENGE: Email should consist of the newsletter with the same styling as the web page contains in itself. The newsletter can be a raw html or an image or any format which works.
 NOTE: You can use any other API / Library other than Mailchimp to manage contact lists and send emails.
+
+## Project Setup
+
+- Clone the repository: git clone https://github.com/nishantguvvada/oneChain.git
+- Setup mailchimp: Create an account on mailchimp -> get MAILCHIMP_API_KEY & MAILCHIMP_SERVER_PREFIX -> cd backend -> create .env file -> Populate .env with API key and server prefix
+- Run the backend: cd backend -> node index.js
+- Run the frontend: cd frontend -> npm run dev
