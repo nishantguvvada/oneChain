@@ -10,7 +10,7 @@ FRONTEND:
 1. Landing Page with an option to input email and a button to subscribe
 2. newsletter in HTML
 
-MailChimp API Key: MYRPS7557R03091996
+MailChimp API Key: ""
 
 1st Draft:
 
