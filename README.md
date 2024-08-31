@@ -9,7 +9,7 @@
 [Mailchimp API](https://mailchimp.com/developer/marketing/api/campaigns/)
 
 MAJOR CHALLENGE: Email should consist of the newsletter with the same styling as the web page contains in itself. The newsletter can be a raw html or an image or any format which works.
-NOTE: You can use any other API / Library other than Mailchimp to manage contact lists and send emails.
+NOTE: You can use any other API / Library other than Mailchimp to manage contact lists and send emails. One such platform is [Resend](https://resend.com/docs/introduction) an alternative to Mailchimp.
 
 ## Project Setup
 
